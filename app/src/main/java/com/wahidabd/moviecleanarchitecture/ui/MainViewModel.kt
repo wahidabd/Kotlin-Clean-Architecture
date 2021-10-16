@@ -3,12 +3,10 @@ package com.wahidabd.moviecleanarchitecture.ui
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
-import com.wahidabd.moviecleanarchitecture.core.data.dto.LoginRequest
-import com.wahidabd.moviecleanarchitecture.core.data.dto.LoginResponse
+import com.wahidabd.moviecleanarchitecture.core.data.user.dto.LoginRequest
+import com.wahidabd.moviecleanarchitecture.core.data.user.dto.LoginResponse
 import com.wahidabd.moviecleanarchitecture.core.domain.LoginUseCase
-import dagger.Provides
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 @HiltViewModel

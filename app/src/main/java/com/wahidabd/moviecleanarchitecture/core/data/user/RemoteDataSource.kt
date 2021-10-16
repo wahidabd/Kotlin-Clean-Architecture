@@ -1,10 +1,9 @@
-package com.wahidabd.moviecleanarchitecture.core.data
+package com.wahidabd.moviecleanarchitecture.core.data.user
 
 import android.util.Log
-import androidx.lifecycle.asLiveData
 import com.wahidabd.moviecleanarchitecture.core.Api
-import com.wahidabd.moviecleanarchitecture.core.data.dto.LoginRequest
-import com.wahidabd.moviecleanarchitecture.core.data.dto.LoginResponse
+import com.wahidabd.moviecleanarchitecture.core.data.user.dto.LoginRequest
+import com.wahidabd.moviecleanarchitecture.core.data.user.dto.LoginResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

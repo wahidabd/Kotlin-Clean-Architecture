@@ -1,8 +1,7 @@
-package com.wahidabd.moviecleanarchitecture.core.data
+package com.wahidabd.moviecleanarchitecture.core.data.user
 
-import com.wahidabd.moviecleanarchitecture.core.data.RemoteDataSource
-import com.wahidabd.moviecleanarchitecture.core.data.dto.LoginRequest
-import com.wahidabd.moviecleanarchitecture.core.data.dto.LoginResponse
+import com.wahidabd.moviecleanarchitecture.core.data.user.dto.LoginRequest
+import com.wahidabd.moviecleanarchitecture.core.data.user.dto.LoginResponse
 import com.wahidabd.moviecleanarchitecture.core.domain.LoginRepositoryImpl
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

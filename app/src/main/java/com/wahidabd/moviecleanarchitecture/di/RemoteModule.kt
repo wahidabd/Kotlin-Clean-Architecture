@@ -1,6 +1,6 @@
 package com.wahidabd.moviecleanarchitecture.di
 
-import com.wahidabd.moviecleanarchitecture.core.data.LoginRepository
+import com.wahidabd.moviecleanarchitecture.core.data.user.LoginRepository
 import com.wahidabd.moviecleanarchitecture.core.domain.LoginRepositoryImpl
 import dagger.Binds
 import dagger.Module

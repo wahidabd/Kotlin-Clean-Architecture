@@ -4,14 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
-import androidx.lifecycle.lifecycleScope
-import com.wahidabd.moviecleanarchitecture.R
-import com.wahidabd.moviecleanarchitecture.core.data.dto.LoginRequest
+import com.wahidabd.moviecleanarchitecture.core.data.user.dto.LoginRequest
 import com.wahidabd.moviecleanarchitecture.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.collectLatest
-import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.wahidabd.moviecleanarchitecture.core.data.dto
+package com.wahidabd.moviecleanarchitecture.core.data.user.dto
 
 data class LoginMeta(
     val is_success: Boolean,
